@@ -22,7 +22,7 @@ public class FishingAPP {
         int damageIndex=rand.nextInt(9);
         int []damages={-1,0,0,0,1,1,1,1,1,1};
         
-        damage=damages[damageIndex];
+        damage+=damages[damageIndex];
         
         System.out.printf("糸のダメージが%dです。",damage);
         if(damage>=5){
