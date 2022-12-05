@@ -27,6 +27,7 @@ public class FishingAPP {
         System.out.printf("糸のダメージが%dです。",damage);
         if(damage>=5){
         System.out.println("ゲームオーバー。糸が切れてしまいました。");
+        break;
         }
         if(distance<=0){
             System.out.printf("釣り上げる事に成功しました。");
